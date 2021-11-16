@@ -1,0 +1,34 @@
+<! DOCTYPE html >
+<html lang ="es">
+   <cabeza>
+       <meta charset="UTF-8">
+       <título>TABLA MENSAJE</título>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script type="text/javascript" src="js/funcionesMessage.js"></script>
+       <estilo>
+        tabla, th, td {
+          borde: 3px  negro sólido;
+          border-collapse: colapso;
+        }
+        </estilo>
+        
+   </cabeza> 
+   <cuerpo>
+      <h1>Registro de Mensajes</h1>
+      <div id="resultado"></div>
+      <button onclick="traerInformacionMessage()">Consultar</button>
+      <br>
+      <br>
+      <div>
+          <input type="number" id="id" placeholder="id">
+          < input type="text" id="messagetext" placeholder="messagetext">
+      </div>
+      <br>
+      <button onclick="guardarInformacionMessage()">Guardar</button>
+      <br>
+      <button onclick="editarInformacionMessage()">Actualizar</button>
+      <br>
+      <a href="tindexclientes.html">Regresar página principal</a>
+
+   </cuerpo>
+</html>

@@ -1,0 +1,36 @@
+<! DOCTYPE html >
+<html lang ="es">
+   <cabeza>
+       <meta charset="UTF-8">
+       <título>CLOUD</título>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       < script type="text/javascript" src="js/funcionesCloud.js"></script>
+       <estilo>
+        tabla, th, td {
+          borde: 3px  negro sólido;
+          border-collapse: colapso;
+        }
+        </estilo>
+        
+   </cabeza> 
+   <cuerpo>
+      <h1>Creacion de cloud</h1>
+      <div id="resultado"></div>
+      <button onclick="traerInformacionRoom()">Consultar</botón>
+      <br>
+      <br>
+      <div>
+          <input type="number" id="id" placeholder="id">
+          <input type="text" id="email" marcador de posición="email">
+          < tipo deentrada ="número" id="edad" marcador de posición="edad">
+          <input type="text" id="name" placeholder="name">
+      </div>
+      <br>
+      <button onclick="guardarInformacionCloud()">Guardar</button>
+      <br>
+      <button onclick="editarInformacionCloud()">Actualizar</button>
+      <br>
+      <a href="tindexclientes.html">Regresar página principal</a>
+
+   </cuerpo>
+</html>
